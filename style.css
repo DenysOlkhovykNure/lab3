@@ -1,0 +1,105 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.picbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.pic {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.button {
+  padding: 40px 30px;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 60px;
+}
+
+.up {
+  background-image: url("arrow-up.png");
+}
+
+.down {
+  background-image: url("arrow-down.png");
+}
+
+.up:hover,
+.down:hover {
+  background-color: #2980b9;
+}
+
+.up:active,
+.down:active {
+  background-color: #20729c;
+}
+
+.controls {
+  width: 400px;
+  text-align: center;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+label,
+input {
+  margin: 5px;
+  width: 45px;
+}
+
+.alt-text {
+  width: 100px;
+}
+
+.toggle-controls {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.update-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.update-button:hover {
+  background-color: #2980b9;
+}
+
+.update-button:active {
+  background-color: #20729c;
+}
